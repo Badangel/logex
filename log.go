@@ -131,7 +131,8 @@ func (l *Logger) formatPrefix(level Level, t time.Time, file string, line int) {
 	itoa(buf, t.Nanosecond()/1e6, 3)
 	*buf = append(*buf, ": g="...)
 
-	itoa(buf, int(goid()), -1)
+	//itoa(buf, int(goid()), -1)
+	itoa(buf, 0, -1)
 	*buf = append(*buf, ": "...)
 
 	short := file
