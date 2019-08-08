@@ -168,7 +168,7 @@ func itoa(buf *[]byte, i int, wid int) {
 }
 
 // Goid returns the id of goroutine, defined in ./goid.c
-func goid() int32
+//func goid() int32
 
 // Fatalf is equivalent to Printf() for FATAL-level log.
 func Fatalf(format string, v ...interface{}) {
