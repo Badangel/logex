@@ -8,7 +8,7 @@
 package main
 
 import "time"
-import "github.com/wuxicn/logex"
+import "github.com/Badangel/logex"
 
 func main() {
 	logex.SetLevel(logex.NOTICE)

@@ -21,7 +21,7 @@ Most importantly, it output goroutine-id in log line. output example:
         "time"
     )
 
-    import "github.com/wuxicn/logex"
+    import "github.com/Badangel/logex"
 
     func main() {
         if err := SetUpFileLogger("./log", "test", nil); err != nil {

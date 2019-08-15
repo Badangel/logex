@@ -12,7 +12,7 @@ import (
 	"os"
 )
 
-import "github.com/wuxicn/logex"
+import "github.com/Badangel/logex"
 
 func main() {
 	if err := logex.SetUpFileLogger("./log", "example", nil); err != nil {
